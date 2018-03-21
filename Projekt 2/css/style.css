@@ -1,0 +1,294 @@
+body {
+  margin: 0 auto;
+  width: 1920px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../font/Georgia.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("..font/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../font/PlayfairDisplay-Bold.ttf");
+}
+
+
+/*nawigacja*/
+
+.main-header{
+  background-image: url("../img/header/Layer6.png");
+
+  padding : 60px 100px  60px 100px;
+  text-align: center;
+
+}
+
+#box {
+  display: inline-block;
+  word-spacing: 40px;
+
+}
+
+.horizontal-nav hr{
+  border: 0;
+  margin-top: 50px;
+  height: 2px;
+  background:#ffffff;;
+  width:100%;
+
+}
+
+.logo {
+  float: left;
+}
+
+.navigation {
+
+}
+
+.navigation li  {
+  display: inline;
+
+
+}
+
+.navigation a {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+
+}
+
+.icon {
+  float: right;
+}
+
+
+.icon li  {
+  display: inline;
+
+}
+
+.icon a {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*captiom*/
+
+.caption {
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.caption h1{
+  font-family: PlayfairDisplay;
+  color:  #ffffff;
+  font-size: 140px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 400;
+  line-height: 0%
+
+}
+
+.caption p{
+  margin-top: 0px;
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 20px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 300;
+  line-height: 34px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  line-height: 50%
+
+}
+
+.really-btn{
+
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  right: 0;
+  left: 0;
+  margin: auto;
+
+}
+
+.really-btn:hover {
+  opacity: 0.8;
+
+}
+
+.play-btn {
+  margin-top: 430px;
+}
+
+.play-btn:hover {
+  transform: scale(1.5);
+}
+
+.image-row h1{
+  /* Styl inline */
+  font-family: Georgia;
+  color:  #ffffff;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 70%;
+
+}
+
+.image-row p {
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 18px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 600;
+  line-height: 30px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  text-align: center;
+  line-height: 50%
+}
+
+
+.amet {
+  background-image: url("../img/main/image-row/Layer11.png");
+  height: 500px;
+  width: 480px;
+  display: table-cell;
+}
+
+.amet:hover{
+  opacity: 0.8;
+}
+
+.lorem {
+  background-image: url("../img/main/image-row/Layer8.png");
+  height: 500px;
+  width: 480px;
+  display: table-cell;
+
+}
+.lorem:hover{
+  opacity: 0.8;
+}
+
+.condimentum {
+  background-image: url("../img/main/image-row/Layer9.png");
+  height: 500px;
+  width: 480px;
+  display: table-cell;
+
+}
+.condimentum:hover{
+  opacity: 0.8;
+}
+
+.ridiculus {
+  background-image: url("../img/main/image-row/Layer10.png");
+  height: 500px;
+  width: 480px;
+  display: table-cell;
+
+}
+.ridiculus:hover{
+  opacity: 0.8;
+}
+
+.cols {
+  padding-top:5%;
+  padding-bottom: 5%;
+  display: inline-block;
+  width: 1525px;
+
+}
+
+#col1 {
+  display: table-cell;
+
+
+}
+
+#col2 {
+  display: table-cell;
+
+}
+
+#col3 {
+  display: table-cell;
+
+}
+
+#col4 {
+  display: table-cell;
+  width: 24%;
+
+
+
+
+}
+.cols header{
+  /* Styl inline */
+  text-transform: uppercase;
+  font-family: Montserrat;
+  color:  #151515;
+  font-size: 14px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  font-weight: 700;
+  line-height: 26px;/* Przybliżenie (wynika z podstawienia czcionki) */
+  text-align: left;
+  margin-bottom: 25px;
+
+}
+
+.cols p {
+  font-family: Georgia;
+  color:  #575757;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 26px;
+  text-align: left;
+  line-height: 150%;
+
+
+
+
+}
+
+footer{
+  font-family: Georgia;
+  color:  #ffffff;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 24px;
+  text-align: center;
+}
+
+
+.copyright{
+  background-color:  #000000;
+  height: 96px;
+}
+
+.copyright p {
+  margin: 0;
+  padding-top: 3%;
+}
